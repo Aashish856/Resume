@@ -35,13 +35,14 @@
 </head>
 
 <body>
+    <section style="background-color: rgb(254, 224, 222);" id="warning">
+        <h4  class="text-center py-3">
+            Please Open This Resume in desktop mode
+        </h4>
+    </section>
     <div class="container">
 
-        <section style="background-color: rgb(254, 224, 222);" id="warning">
-            <h4  class="text-center py-3">
-                Please Open This Resume in desktop mode
-            </h4>
-        </section>
+        
 
         <!-- Intro -->
         <section class="px-5 pt-5">
@@ -357,7 +358,6 @@
 
     <script>
         var x = window.screen.width
-        console.log(x)
         if (x > 800){
             document.getElementById("warning").style.display = "None"
         }
